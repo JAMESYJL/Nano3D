@@ -1,6 +1,6 @@
 # Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
 
-[**Paper**] | [**Project Page**]
+[**Paper**] | [**Project Page**] | [**Datasets**] | [**Gradio**]
 
 Official implementation of Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
 
