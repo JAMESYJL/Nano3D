@@ -21,6 +21,13 @@ Overall Framework of Nano3D. The original 3D object is voxelized and encoded int
     <img src="assets/method.png">
 </p>
 
+## Result
+
+We present three edit types—object removal, addition, and replacement. In each case, Nano3D confines changes to the target region (red dashed circles) and produces view-consistent edits, while leaving the rest of the scene unchanged. Geometry stays sharp and textures remain faithful in unedited areas, with no noticeable artifacts.
+<p align="center">
+    <img src="assets/result1.png">
+</p>
+
 ## BibTeX
 
 ```bibtex
