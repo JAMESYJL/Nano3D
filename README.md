@@ -1,6 +1,6 @@
 # Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
 
-[**Paper**] | [**Project Page**] | [**Datasets**] | [**Gradio**]
+[**Paper**] | [**Project Page**](https://jamesyjl.github.io/Nano3D/) | [**Datasets**] | [**Gradio**]
 
 Official implementation of Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
 
