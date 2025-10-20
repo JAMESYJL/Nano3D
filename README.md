@@ -4,6 +4,10 @@
 
 Official implementation of Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
 
+https://github.com/user-attachments/assets/1a382c9f-956b-4501-864d-f2838211b360
+
+
+
 [Junliang Ye*](https://jamesyjl.github.io/), [Shenghao Xie*](https://shxie2020.github.io/), [Ruowen Zhao](https://zhaorw02.github.io/), [Zhengyi Wang](https://thuwzy.github.io/), [Hongyu Yan](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=en&oi=ao), Wenqiang Zu, Lei Ma, [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml).
 
 <p align="center"> All Code will be released soon... 🏗️ 🚧 🔨</p>
