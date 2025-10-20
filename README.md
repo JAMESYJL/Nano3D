@@ -31,10 +31,13 @@ We present three edit types—object removal, addition, and replacement. In each
 ## BibTeX
 
 ```bibtex
-@article{ye2025shapellm,
-  title={ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding},
-  author={Ye, Junliang and Wang, Zhengyi and Zhao, Ruowen and Xie, Shenghao and Zhu, Jun},
-  journal={arXiv preprint arXiv:2506.01853},
-  year={2025}
+@misc{ye2025nano3dtrainingfreeapproachefficient,
+      title={NANO3D: A Training-Free Approach for Efficient 3D Editing Without Masks}, 
+      author={Junliang Ye and Shenghao Xie and Ruowen Zhao and Zhengyi Wang and Hongyu Yan and Wenqiang Zu and Lei Ma and Jun Zhu},
+      year={2025},
+      eprint={2510.15019},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.15019}, 
 }
 ```
