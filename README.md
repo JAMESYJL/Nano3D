@@ -170,13 +170,10 @@ We present three edit types—object removal, addition, and replacement. In each
 ## BibTeX
 
 ```bibtex
-@misc{ye2025nano3dtrainingfreeapproachefficient,
-      title={NANO3D: A Training-Free Approach for Efficient 3D Editing Without Masks}, 
-      author={Junliang Ye and Shenghao Xie and Ruowen Zhao and Zhengyi Wang and Hongyu Yan and Wenqiang Zu and Lei Ma and Jun Zhu},
-      year={2025},
-      eprint={2510.15019},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2510.15019}, 
+@article{ye2025nano3d,
+  title={NANO3D: A Training-Free Approach for Efficient 3D Editing Without Masks},
+  author={Ye, Junliang and Xie, Shenghao and Zhao, Ruowen and Wang, Zhengyi and Yan, Hongyu and Zu, Wenqiang and Ma, Lei and Zhu, Jun},
+  journal={arXiv preprint arXiv:2510.15019},
+  year={2025}
 }
 ```
