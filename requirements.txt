@@ -1,0 +1,31 @@
+torch==2.4.0 --index-url https://download.pytorch.org/whl/cu118
+torchvision==0.19.0 --index-url https://download.pytorch.org/whl/cu118
+xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu118
+flash-attn==2.5.9.post1
+rembg
+numpy
+pillow
+tqdm
+mathutils
+open3d
+trimesh
+pysdf
+opencv-python
+gradio
+easydict
+onnxruntime
+transformers
+plyfile
+#nvdiffrast
+xatlas
+pyvista
+pymeshfix
+igraph
+accelerate
+sentencepiece
+spconv-cu118
+diffusers==0.34.0
+jupyter-client==7.4.9
+ipykernel==6.29.5
+kaolin -f https://nvidia-kaolin.s3.us-east-2.amazonaws.com/torch-2.4.0_cu118.html
+#bpy==4.0.0 --extra-index-url https://download.blender.org/pypi/
