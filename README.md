@@ -1,18 +1,47 @@
-# Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
+<p align="center">
+  <h3 align="center"><strong>Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks</strong></h3>
+    
+<p align="center">
+    <a href="https://jamesyjl.github.io/">Junliang Ye</a><sup>1*</sup>,
+    <a href="https://shxie2020.github.io/">Shenghao Xie</a><sup>2*</sup>,
+    <a href="https://zhaorw02.github.io/">Ruowen Zhao</a><sup>1</sup>,<br>
+    <a href="https://thuwzy.github.io/">Zhengyi Wang</a><sup>1</sup>,
+    <a href="https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=en&oi=ao">Hongyu Yan</a><sup>3</sup>,
+    <a href="">Wenqiang Zu</a><sup>4</sup>
+    <a href="">Lei Ma</a><sup>2†</sup>,
+    <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a><sup>1†</sup>
+    <br>
+    <sup>*</sup>Equal Contribution.
+    <sup>†</sup>Corresponding authors.
+    <br>
+    <sup>1</sup>Tsinghua University,
+    <sup>2</sup>Peking University,
+    <sup>3</sup>HKUST,
+    <sup>4</sup>CASIA,
+</p>
 
-[**Paper**](https://arxiv.org/abs/2510.15019) | [**Project Page**](https://jamesyjl.github.io/Nano3D/) | [**Datasets**](https://huggingface.co/datasets/yejunliang23/Nano3D-Edit-100k)
+<div align="center">
 
-Official implementation of Nano3D: A Training-Free Approach for Efficient 3D Editing Without Masks
+<a href='https://arxiv.org/abs/2510.15019'><img src='https://img.shields.io/badge/arXiv-2510.15019-b31b1b.svg'></a> &nbsp;&nbsp;&nbsp;&nbsp;
+ <a href='https://jamesyjl.github.io/Nano3D/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;&nbsp;&nbsp;&nbsp;
+ <a><img src='https://img.shields.io/badge/License-MIT-blue'></a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://huggingface.co/datasets/yejunliang23/Nano3D-Edit-100k"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-HF-orange"></a> &nbsp;&nbsp;&nbsp;&nbsp;
 
-[Junliang Ye*](https://jamesyjl.github.io/), [Shenghao Xie*](https://shxie2020.github.io/), [Ruowen Zhao](https://zhaorw02.github.io/), [Zhengyi Wang](https://thuwzy.github.io/), [Hongyu Yan](https://scholar.google.com/citations?user=TeKnXhkAAAAJ&hl=en&oi=ao), Wenqiang Zu, Lei Ma, [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml).
+</div>
 
 https://github.com/user-attachments/assets/1a382c9f-956b-4501-864d-f2838211b360
 
-Abstract: *3D object editing is essential for interactive content creation in gaming, animation, and robotics, yet current approaches remain inefficient, inconsistent, and often fail to preserve unedited regions. Most methods rely on editing multi-view renderings followed by reconstruction, which introduces artifacts and limits practicality. To address these challenges, we propose **Nano3D**, a training-free framework for precise and coherent 3D object editing without masks. Nano3D integrates FlowEdit into TRELLIS to perform localized edits guided by front-view renderings, and further introduces region-aware merging strategies, Voxel/Slat-Merge, which adaptively preserve structural fidelity by ensuring consistency between edited and unedited areas. Experiments demonstrate that Nano3D achieves superior 3D consistency and visual quality compared with existing methods. Based on this framework, we construct the first large-scale 3D editing datasets **Nano3D-Edit-100k**, which contains over 100,000 high-quality 3D editing pairs. This work addresses long-standing challenges in both algorithm design and data availability, significantly improving the generality and reliability of 3D editing, and laying the groundwork for the development of feed-forward 3D editing models.*
+we propose **Nano3D**, a training-free framework for precise and coherent 3D object editing without masks.
 
-<p align="center">
+<!-- <p align="center">
     <img src="assets/teaser.png">
-</p>
+</p> -->
+
+## Release
+- [4/02] 🔥 We released the Nano3D-v1 code.
+- [4/02] 🔥 We released the Nano3D-Edit-100k dataset.
+- [8/05] 🔥🔥 We released the [Nano3D-v2](https://tencent-hunyuan.github.io/Hunyuan3D-Buffalo1.0/).
+
 
 ## Installation
 
@@ -170,10 +199,23 @@ We present three edit types—object removal, addition, and replacement. In each
 ## BibTeX
 
 ```bibtex
-@article{ye2025nano3d,
-  title={NANO3D: A Training-Free Approach for Efficient 3D Editing Without Masks},
+@inproceedings{ye2026nano3d,
+  title={Nano3d: A training-free approach for efficient 3d editing without masks},
   author={Ye, Junliang and Xie, Shenghao and Zhao, Ruowen and Wang, Zhengyi and Yan, Hongyu and Zu, Wenqiang and Ma, Lei and Zhu, Jun},
-  journal={arXiv preprint arXiv:2510.15019},
-  year={2025}
+  booktitle={International Conference on Learning Representations},
+  volume={2026},
+  pages={46900--46922},
+  year={2026}
+}
+```
+```bibtex
+@misc{ye2026hunyuan3dbuffalo10unifiedmultimodal,
+      title={Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing}, 
+      author={Junliang Ye and Kenkun Liu and Guocun Wang and Yang Li and Yansong Qu and Chunshi Wang and Jingwei Xu and Yunhan Yang and Zibo Zhao and Jiachen Xu and Jiaao Yu and Lifu Wang and Zhihao Liang and Zhuo Chen and Chunchao Guo},
+      year={2026},
+      eprint={2608.02711},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.02711}, 
 }
 ```
