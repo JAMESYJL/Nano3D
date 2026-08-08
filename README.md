@@ -209,13 +209,10 @@ We present three edit types—object removal, addition, and replacement. In each
 }
 ```
 ```bibtex
-@misc{ye2026hunyuan3dbuffalo10unifiedmultimodal,
-      title={Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing}, 
-      author={Junliang Ye and Kenkun Liu and Guocun Wang and Yang Li and Yansong Qu and Chunshi Wang and Jingwei Xu and Yunhan Yang and Zibo Zhao and Jiachen Xu and Jiaao Yu and Lifu Wang and Zhihao Liang and Zhuo Chen and Chunchao Guo},
-      year={2026},
-      eprint={2608.02711},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2608.02711}, 
+@article{ye2026hunyuan3d,
+  title={Hunyuan3D-Buffalo 1.0: A Unified Multimodal Model for Scalable 3D Generation, Understanding, and Editing},
+  author={Ye, Junliang and Liu, Kenkun and Wang, Guocun and Li, Yang and Qu, Yansong and Wang, Chunshi and Xu, Jingwei and Yang, Yunhan and Zhao, Zibo and Xu, Jiachen and others},
+  journal={arXiv preprint arXiv:2608.02711},
+  year={2026}
 }
 ```
